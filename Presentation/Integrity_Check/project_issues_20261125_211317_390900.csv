@@ -1,0 +1,12 @@
+stage,path,required,status,detail
+Scraped data,Data\Scraping\flight_report_data\all_airlines_reviews.csv,True,MISSING,Required path absent
+Scraped data,Data\Scraping\kayak\kayak_all_airline_reviews.csv,True,MISSING,Required path absent
+Translation recovery,Data\Output\Cleaning data\incremental_translation_checkpoint.csv,False,WARNING,Optional path absent
+HF diagnostics,Data\Output\Hugging Face\classification_validation_sample.csv,False,ERROR,"Error tokenizing data. C error: Expected 1 fields in line 3, saw 2
+"
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_missing_reviews.csv,False,WARNING,Optional path absent
+Pilot,Data\Output\LLM\Pilot\haiku_failures.jsonl,False,WARNING,Empty optional log; may indicate no failures
+Pilot,Data\Output\LLM\Pilot\gemini_failures.jsonl,False,WARNING,Empty optional log; may indicate no failures
+Presentation,Presentation\Final Presentation.pptx,True,MISSING,Required path absent
+Repository hygiene,.gitignore,False,WARNING,Optional path absent
+Repository hygiene,requirements.txt,False,WARNING,Optional path absent

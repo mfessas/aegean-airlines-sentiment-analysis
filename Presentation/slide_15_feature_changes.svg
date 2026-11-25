@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1109.99952pt" height="605.99952pt" viewBox="0 0 1109.99952 605.99952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-25T21:03:02.561491</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 605.99952 
+L 1109.99952 605.99952 
+L 1109.99952 0 
+L 0 0 
+z
+" style="fill: #102747"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 18 161.084381 
+L 286.49988 161.084381 
+L 286.49988 103.108251 
+L 18 103.108251 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #d5b36b" x="152.24994" y="135.213972" transform="rotate(-0 152.24994 135.213972)">Airline</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 286.49988 161.084381 
+L 689.2497 161.084381 
+L 689.2497 103.108251 
+L 286.49988 103.108251 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #d5b36b" x="487.87479" y="135.213972" transform="rotate(-0 487.87479 135.213972)">Top 2 improvements ↑</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 689.2497 161.084381 
+L 1091.99952 161.084381 
+L 1091.99952 103.108251 
+L 689.2497 103.108251 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #d5b36b" x="890.62461" y="135.213972" transform="rotate(-0 890.62461 135.213972)">Top 2 deteriorations ↓</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 18 219.060511 
+L 286.49988 219.060511 
+L 286.49988 161.084381 
+L 18 161.084381 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="193.190102" transform="rotate(-0 152.24994 193.190102)">Aegean Airlines</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 286.49988 219.060511 
+L 689.2497 219.060511 
+L 689.2497 161.084381 
+L 286.49988 161.084381 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(403.880415 185.988461)">Cabin cleanliness  +11.7 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(418.985415 200.391743)">Cancellation  +10.8 pp</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 689.2497 219.060511 
+L 1091.99952 219.060511 
+L 1091.99952 161.084381 
+L 689.2497 161.084381 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(822.908047 185.988461)">Seat comfort  -15.3 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(828.477735 200.391743)">Cabin crew  -10.2 pp</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 18 277.036641 
+L 286.49988 277.036641 
+L 286.49988 219.060511 
+L 18 219.060511 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="251.166232" transform="rotate(-0 152.24994 251.166232)">Turkish Airlines</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 286.49988 277.036641 
+L 689.2497 277.036641 
+L 689.2497 219.060511 
+L 286.49988 219.060511 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(396.52479 243.964591)">Entertainment / Wi-Fi  +7.7 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(426.68229 258.367873)">Cabin crew  +7.5 pp</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 689.2497 277.036641 
+L 1091.99952 277.036641 
+L 1091.99952 219.060511 
+L 689.2497 219.060511 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(813.31086 243.96506)">Cabin cleanliness  -2.4 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(838.989922 258.367404)">Baggage  -1.6 pp</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 18 335.012771 
+L 286.49988 335.012771 
+L 286.49988 277.036641 
+L 18 277.036641 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="309.142362" transform="rotate(-0 152.24994 309.142362)">Air France</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 286.49988 335.012771 
+L 689.2497 335.012771 
+L 689.2497 277.036641 
+L 286.49988 277.036641 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(392.70729 301.940721)">Entertainment / Wi-Fi  +19.7 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(439.633852 316.344003)">Delays  +3.8 pp</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 689.2497 335.012771 
+L 1091.99952 335.012771 
+L 1091.99952 277.036641 
+L 689.2497 277.036641 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(826.725547 301.940721)">Seat comfort  -7.6 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(838.665547 316.344003)">Boarding  -4.7 pp</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 18 392.988901 
+L 286.49988 392.988901 
+L 286.49988 335.012771 
+L 18 335.012771 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="367.118492" transform="rotate(-0 152.24994 367.118492)">Lufthansa</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 286.49988 392.988901 
+L 689.2497 392.988901 
+L 689.2497 335.012771 
+L 286.49988 335.012771 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(397.594477 359.916851)">Complaint resolution  +0.7 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(422.802915 374.320133)">Cancellation  +0.1 pp</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 689.2497 392.988901 
+L 1091.99952 392.988901 
+L 1091.99952 335.012771 
+L 689.2497 335.012771 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(822.908047 359.916851)">Seat comfort  -18.3 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(828.477735 374.320133)">Cabin crew  -15.4 pp</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 18 450.965031 
+L 286.49988 450.965031 
+L 286.49988 392.988901 
+L 18 392.988901 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="425.094622" transform="rotate(-0 152.24994 425.094622)">Bangkok Air</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 286.49988 450.965031 
+L 689.2497 450.965031 
+L 689.2497 392.988901 
+L 286.49988 392.988901 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(407.32104 417.892981)">Flight disruption  +30.0 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(393.776977 432.296263)">Complaint resolution  +24.6 pp</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 689.2497 450.965031 
+L 1091.99952 450.965031 
+L 1091.99952 392.988901 
+L 689.2497 392.988901 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(802.385235 417.892981)">Booking experience  -28.0 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(812.660235 432.296263)">Value for money  -24.2 pp</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 18 508.941161 
+L 286.49988 508.941161 
+L 286.49988 450.965031 
+L 18 450.965031 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="483.070752" transform="rotate(-0 152.24994 483.070752)">Porter Airlines</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 286.49988 508.941161 
+L 689.2497 508.941161 
+L 689.2497 450.965031 
+L 286.49988 450.965031 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(435.816352 475.869111)">Delays  +12.9 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(400.44729 490.272393)">Airport experience  +12.1 pp</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 689.2497 508.941161 
+L 1091.99952 508.941161 
+L 1091.99952 450.965031 
+L 689.2497 450.965031 
+z
+" style="fill: #142e4d; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(798.320235 475.869111)">Entertainment / Wi-Fi  -29.3 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(809.49336 490.272393)">Cabin cleanliness  -28.1 pp</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 18 566.917291 
+L 286.49988 566.917291 
+L 286.49988 508.941161 
+L 18 508.941161 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #f4f7fc" x="152.24994" y="541.046882" transform="rotate(-0 152.24994 541.046882)">Virgin Australia</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 286.49988 566.917291 
+L 689.2497 566.917291 
+L 689.2497 508.941161 
+L 286.49988 508.941161 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(422.702602 533.84571)">Ground staff  +5.4 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #49b88b" transform="translate(433.376977 548.248054)">Baggage  +2.4 pp</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 689.2497 566.917291 
+L 1091.99952 566.917291 
+L 1091.99952 508.941161 
+L 689.2497 508.941161 
+z
+" style="fill: #193858; stroke: #102747; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(812.660235 533.845242)">Value for money  -23.3 pp</text>
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #e66a70" transform="translate(820.423672 548.248523)">Pricing &amp; fees  -17.6 pp</text>
+    </g>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 14.4px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #d5b36b" x="554.99976" y="54.943792" transform="rotate(-0 554.99976 54.943792)">At least 20 feature mentions per airline in each period</text>
+   </g>
+  </g>
+  <g id="text_26">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #d5b36b" x="554.99976" y="33.196875" transform="rotate(-0 554.99976 33.196875)">Which passenger-experience themes changed most?</text>
+  </g>
+ </g>
+</svg>

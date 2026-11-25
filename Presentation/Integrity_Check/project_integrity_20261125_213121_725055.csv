@@ -1,0 +1,137 @@
+stage,path,required,status,detail
+Documentation,README.md,True,PASS,Basic structural check passed
+Documentation,PROJECT_README.md,True,PASS,Basic structural check passed
+Structure,Python Code/,True,PASS,Directory exists
+Structure,Data/,True,PASS,Directory exists
+Structure,Data\Scraping/,True,PASS,Directory exists
+Structure,Data\Output/,True,PASS,Directory exists
+Structure,Data\Output\Cleaning data/,True,PASS,Directory exists
+Structure,Data\Output\Hugging Face/,True,PASS,Directory exists
+Structure,Data\Output\LLM/,True,PASS,Directory exists
+Structure,Streamlit/,True,PASS,Directory exists
+Structure,Presentation/,True,PASS,Directory exists
+Structure,Python Code\Presentation/,True,PASS,Directory exists
+Scraping code,Python Code\Scraping\Airline Ratings scraper.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\eSky Scraper.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\Flight Review Scraper.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\Kayak Scraping.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\TripAdvisor_scraper_apify.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\Trustpilot - Apify Scraper.ipynb,True,PASS,Basic structural check passed
+Scraping code,Python Code\Scraping\airlineratings_multi_airline_paginated_v2.py,True,PASS,Basic structural check passed
+Scraped data,Data\Scraping\airlineratings_data\all_airlines_reviews.csv,True,PASS,747 rows
+Scraped data,Data\Scraping\esky\esky_all_reviews_v2.csv,True,PASS,"4,804 rows"
+Scraped data,Data\Scraping\flight_report_data\all_airlines_reviews.csv,True,PASS,"1,298 rows"
+Scraped data,Data\Scraping\kayak\kayak_all_airline_reviews.csv,True,PASS,"7,682 rows"
+Scraped data,Data\Scraping\tripadvisor_reviews\tripadvisor_all_airlines.csv,True,PASS,"14,686 rows"
+Scraped data,Data\Scraping\trustpilot_reviews\trustpilot_all_airlines.csv,True,PASS,"7,047 rows"
+Cleaning code,Python Code\Data Cleaning\Airline_Reviews_Pipeline_Updated(1).ipynb,True,PASS,Basic structural check passed
+Legacy / incremental,Python Code\Data Cleaning\Clean_Data(1).ipynb,False,PASS,Basic structural check passed
+Legacy / incremental,Python Code\Data Cleaning\Incremental_reviews_pipeline.ipynb,False,PASS,Basic structural check passed
+Cleaning data,Data\Output\Cleaning data\df_final.csv,True,PASS,"39,005 rows"
+Cleaning data,Data\Output\Cleaning data\airline_reviews_cleaned.csv,True,PASS,"36,264 rows"
+Cleaning data,Data\Output\Cleaning data\airline_reviews_translated.csv,True,PASS,"36,264 rows"
+Cleaning data,Data\Output\Cleaning data\airline_review_summary.xlsx,True,PASS,Basic structural check passed
+Translation recovery,Data\Output\Cleaning data\translation_checkpoint.pkl,False,PASS,Present; deliberately not deserialized
+Translation recovery,Data\Output\Cleaning data\incremental_translation_checkpoint.csv,False,WARNING,Optional path absent
+Translation recovery,Data\Output\Cleaning data\Legacy\airline_translation_checkpoint.pkl,False,PASS,Present; deliberately not deserialized
+HF code,Python Code\Hugging Face\Airline_Feature_Engineering_v2(1).ipynb,True,PASS,Basic structural check passed
+HF code,Python Code\Hugging Face\airline_features_v2.py,True,PASS,Basic structural check passed
+HF code,Python Code\Hugging Face\NoLLM_Sentiment_Analysis.ipynb,True,PASS,Basic structural check passed
+HF data,Data\Output\Hugging Face\df_final_features.csv,True,PASS,"39,005 rows"
+HF data,Data\Output\Hugging Face\df_final_absa.csv,True,PASS,"39,005 rows"
+HF diagnostics,Data\Output\Hugging Face\df_final_features_no_first_class_no_long_haul.csv,False,PASS,"33,582 rows"
+HF diagnostics,Data\Output\Hugging Face\df_final_absa_no_first_class_no_long_haul.csv,False,PASS,"33,582 rows"
+HF diagnostics,Data\Output\Hugging Face\classification_diagnostics.csv,False,PASS,"975,125 rows"
+HF diagnostics,Data\Output\Hugging Face\classification_conflicts.csv,False,PASS,274 rows
+HF diagnostics,Data\Output\Hugging Face\classification_validation_sample.csv,False,PASS,989 rows
+HF diagnostics,Data\Output\Hugging Face\feature_summary.csv,False,PASS,25 rows
+HF diagnostics,Data\Output\Hugging Face\feature_summary_by_airline.csv,False,PASS,7 rows
+HF diagnostics,Data\Output\Hugging Face\feature_summary_by_source.csv,False,PASS,6 rows
+HF diagnostics,Data\Output\Hugging Face\absa_diagnostics.csv,False,PASS,"975,125 rows"
+HF diagnostics,Data\Output\Hugging Face\absa_summary.csv,False,PASS,125 rows
+HF diagnostics,Data\Output\Hugging Face\absa_airline_sentiment_summary.csv,False,PASS,7 rows
+Gemini code,Python Code\LLM\LLM_sentiment_analysis.ipynb,True,PASS,Basic structural check passed
+Gemini data,Data\Output\LLM\df_final_absa_gemini.csv,True,PASS,"30,219 rows"
+Gemini recovery / diagnostics,Data\Output\LLM\df_final_absa_gemini_complete.csv,False,PASS,"30,220 rows"
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_full_checkpoint.jsonl,False,PASS,"30,219 JSON records"
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_full_failures.jsonl,False,PASS,177 JSON records
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_diagnostics.csv,False,PASS,"755,475 rows"
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_cost_summary.csv,False,PASS,1 rows
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_vs_huggingface.csv,False,PASS,25 rows
+Gemini recovery / diagnostics,Data\Output\LLM\gemini_missing_reviews.csv,False,WARNING,Optional path absent
+Gemini recovery / diagnostics,Data\Output\LLM\model_validation_100_reviews.xlsx,False,PASS,Basic structural check passed
+Pilot,Data\Output\LLM\Pilot\df_final_absa_haiku.csv,False,PASS,100 rows
+Pilot,Data\Output\LLM\Pilot\df_final_absa_gemini.csv,False,PASS,"30,219 rows"
+Pilot,Data\Output\LLM\Pilot\haiku_checkpoint.jsonl,False,PASS,100 JSON records
+Pilot,Data\Output\LLM\Pilot\gemini_checkpoint.jsonl,False,PASS,100 JSON records
+Pilot,Data\Output\LLM\Pilot\haiku_failures.jsonl,False,WARNING,Empty optional log; may indicate no failures
+Pilot,Data\Output\LLM\Pilot\gemini_failures.jsonl,False,WARNING,Empty optional log; may indicate no failures
+Pilot,Data\Output\LLM\Pilot\llm_cost_comparison.csv,False,PASS,2 rows
+Pilot,Data\Output\LLM\Pilot\llm_feature_agreement.csv,False,PASS,25 rows
+Pilot,Data\Output\LLM\Pilot\llm_full_comparison.csv,False,PASS,100 rows
+Validation code,Python Code\Model Validation\model_validation.ipynb,True,PASS,Basic structural check passed
+Human ground truth,Data\Output\LLM\model_validation_100_reviewsv3.xlsx,True,PASS,Basic structural check passed
+Validation results,Data\Output\LLM\validation_results\model_validation_results.xlsx,True,PASS,Basic structural check passed
+Validation results,Data\Output\LLM\validation_results\presentation_validation_summary.xlsx,True,PASS,Basic structural check passed
+Validation results,Data\Output\LLM\validation_results\summary.csv,True,PASS,21 rows
+Validation diagnostics,Data\Output\LLM\validation_results\model_ranking.csv,False,PASS,21 rows
+Validation diagnostics,Data\Output\LLM\validation_results\feature_metrics.csv,False,PASS,222 rows
+Validation diagnostics,Data\Output\LLM\validation_results\class_metrics.csv,False,PASS,966 rows
+Validation diagnostics,Data\Output\LLM\validation_results\multilabel_metrics.csv,False,PASS,3 rows
+Validation diagnostics,Data\Output\LLM\validation_results\confidence_intervals.csv,False,PASS,24 rows
+Validation diagnostics,Data\Output\LLM\validation_results\model_differences.csv,False,PASS,24 rows
+Validation diagnostics,Data\Output\LLM\validation_results\model_agreement.csv,False,PASS,12 rows
+Validation diagnostics,Data\Output\LLM\validation_results\confusion_matrices.csv,False,PASS,"4,320 rows"
+Validation diagnostics,Data\Output\LLM\validation_results\overall_errors.csv,False,PASS,28 rows
+Validation diagnostics,Data\Output\LLM\validation_results\aspect_errors.csv,False,PASS,782 rows
+Validation diagnostics,Data\Output\LLM\validation_results\evaluation_coverage.csv,False,PASS,246 rows
+Validation diagnostics,Data\Output\LLM\validation_results\filter_audit.csv,False,PASS,7 rows
+Validation diagnostics,Data\Output\LLM\validation_results\overall_predictions.csv,False,PASS,84 rows
+Validation diagnostics,Data\Output\LLM\validation_results\aspect_predictions.csv,False,PASS,"2,100 rows"
+Validation diagnostics,Data\Output\LLM\validation_results\charts/,False,PASS,Directory exists
+Streamlit,Streamlit\app.py,True,PASS,Basic structural check passed
+Streamlit,Streamlit\README.md,True,PASS,Basic structural check passed
+Streamlit,Streamlit\requirements.txt,True,PASS,Basic structural check passed
+Streamlit,Streamlit\assets\linkedin_qr.svg,True,PASS,Basic structural check passed
+Presentation code,Python Code\Presentation\generate_presentation_graphs.py,True,PASS,Basic structural check passed
+Presentation,Presentation\Final Presentation.pptx,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_08_sample.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_08_sample.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_08_sample.csv,True,PASS,20 rows
+Presentation graphs,Presentation\slide_09_validation.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_09_validation.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_09_validation.csv,True,PASS,3 rows
+Presentation graphs,Presentation\slide_10_drivers.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_10_drivers.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_10_drivers.csv,True,PASS,16 rows
+Presentation graphs,Presentation\slide_11_overall_benchmark.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_11_overall_benchmark.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_11_overall_benchmark.csv,True,PASS,7 rows
+Presentation graphs,Presentation\slide_12_best_peer.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_12_best_peer.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_12_best_peer.csv,True,PASS,18 rows
+Presentation graphs,Presentation\slide_13_best_peer.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_13_best_peer.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_13_best_peer.csv,True,PASS,18 rows
+Presentation graphs,Presentation\slide_14_evolution.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_14_evolution.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_14_evolution.csv,True,PASS,7 rows
+Presentation graphs,Presentation\slide_15_feature_changes.png,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_15_feature_changes.svg,True,PASS,Basic structural check passed
+Presentation graphs,Presentation\slide_15_feature_changes.csv,True,PASS,126 rows
+Repository hygiene,.gitignore,False,WARNING,Optional path absent
+Repository hygiene,requirements.txt,False,WARNING,Optional path absent
+Dataset contract,Data/Output/Cleaning data/df_final.csv,True,PASS,"39,005 unique records; required columns present"
+Dataset contract,Data/Output/Hugging Face/df_final_features.csv,True,PASS,"39,005 unique records; required columns present"
+Dataset contract,Data/Output/Hugging Face/df_final_absa.csv,True,PASS,"39,005 unique records; required columns present"
+Dataset contract,Data/Output/LLM/df_final_absa_gemini.csv,True,PASS,"30,219 unique records; required columns present"
+Matched sample,Nonempty intersection,True,PASS,"30,219 matched records"
+Matched sample,Historical matched count,False,PASS,"Actual 30,219; historical 30,219"
+Matched sample,Gemini keys in HF,False,PASS,0 Gemini-only keys
+Matched sample,Historical presentation count,False,PASS,"Actual 25,568; historical 25,568"
+Matched sample,Invalid dates,False,PASS,0 invalid/missing dates
+Matched sample,Recognized airlines,False,PASS,0 unmatched airline names
+Matched sample,Presentation coverage,True,PASS,All seven airlines present
+Matched sample,Presentation Gemini labels,True,PASS,0 missing/unrecognized overall labels
+Matched sample,Dashboard coverage,True,PASS,All seven airlines present
+Matched sample,Dashboard Gemini labels,False,PASS,0 missing/unrecognized overall labels

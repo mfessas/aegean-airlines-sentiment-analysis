@@ -1,0 +1,54 @@
+# AEGEAN Airlines — repository exclusions
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# Raw reviews, processed datasets and analytical checkpoints
+/Data/
+*.pkl
+*.pickle
+*.joblib
+*.jsonl
+
+# Model weights and caches
+*.pt
+*.pth
+*.safetensors
+.cache/
+huggingface_cache/
+
+# Scraping diagnostics and temporary files
+*_debug/
+*.log
+*.tmp
+
+# Local integrity reports and presentation source data
+/Presentation/Integrity_Check/
+/Presentation/**/*.csv
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
